@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+<body>
+    <!-- header -->
+    <div class="container">
+        <nav>
+            <div class="desktop">
+                <div>
+                    <a class="brand" href="#C">Coding</a>
+                </div>
+                <div>
+                    <a href="#home">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="Rank.html">Rank us</a>
+                    <a href="https://www.programiz.com/python-programming/online-compiler/" 
+                        target="_blank">code testing</a>
+                    <a class="LOGIN" href="Login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                </div>
+            </div>
+            <div class="mobile">
+                <a class="brand" href="#">Coding</a>
+                <a class="menu-btn" href="javascript:void(0)" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <main>
+
+            <!-- Home -->
+            <section class="parallax-effect bg-img-1">
+                <div id="home">
+                <h1>
+                    World Best Tutorials
+                </h1>
+            </div>
+            </section>
+            <center>
+
+                <!-- categories -->
+            <section class="categories">
+                <h2>_Categories</h2>
+                <br>
+                <div class="grid">
+                        <p></p>
+                    <a class="card" href="code-in-python-3-ar-v1.0.0-_1_.html" target="_blank">
+                        <i class="fa-brands fa-python"></i>
+                        <p>What is the Python language?</p>
+                            <p>
+                            Python is a high-level, interpreted programming language known for its simplicity and readability.
+                            
+                            Created by Guido van Rossum and first released in 1991,
+                            
+                            Python has become one of the most popular programming languages worldwide,
+                            
+                            used extensively in various domains such as web development,
+                            
+                            </p>
+                    </a>
+                </div>
+            </section>
+        </center>
+        <br><br>
+
+        <!-- Foooter -->
+        <section class="contact" id="contact">
+            <div class="contact-box">
+                <br><br>
+            <h3>Menu Links</h3>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Rank.html">Rank us</a></li>
+                <li><a href="https://www.programiz.com/python-programming/online-compiler/" 
+                    target="_blank">code testing</a></li>
+                <li><a href="Login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a></li><br>
+            </div>
+                <div class="contact-box address">
+                    <br><br>
+                    <h3 id="C">Coding</h3>
+                    <p>is a free educational website that focuses on computer science, providing you with 
+                        knowledge in a simple and detailed manner. It is the perfect place for anyone aspiring to 
+                        become a professional and creative programmer in the digital world.</p><br><br>
+                </div>
+            </section>
+                <div class="copyright">
+                    <p>Copyright ©2024</p>
+            </div>
+
+        </main>
+        <div id="sidenav">
+            <span class="close-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+            <a href="#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="Rank.html">Rank us</a>
+            <a href="https://www.programiz.com/python-programming/online-compiler/" 
+                target="_blank">code testing</a>
+            <a class="LOGIN" href="Login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            var sidenav = document.getElementById('sidenav');
+            sidenav.style.display = (sidenav.style.display == 'none' || sidenav.style.display == '') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
